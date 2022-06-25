@@ -43,22 +43,22 @@
         "SONG_DOWNLOAD": {
             "description": "Enter the audio download message... ශබ්ද බාගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
             "required": true,
-            "value": "_*I'm Searching your song*_ ✨➾🔎"
+            "value":"_*I'm Searching your song*_ ✨➾🔎"
         },
         "SONG_UPLOAD": {
             "description": "Enter the audio upload message... ශබ්ද උඩුගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
             "required": true,
-            "value": "_*Im Uploading your song*_ ✨➾🎲"
+            "value":"_*Im Uploading your song*_ ✨➾🎲"
         },
         "VIDEO_DOWNLOAD": {
             "description": "Enter the video download message... වීඩියෝ බාගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
             "required": true,
-            "value": "_*I'm Bringing your video*_ ✨➾🔎"
+            "value":"_*I'm Bringing your video*_ ✨➾🔎"
         },
         "VIDEO_UPLOAD": {
             "description": "Enter the video upload message... වීඩියෝ උඩුගත වීමේ පණිවිඩය ඇතුලත් කරන්න",
             "required": true,
-            "value": "_*Im Uploading your video*_ ✨➾🎲"
+            "value":"_*Im Uploading your video*_ ✨➾🎲"
         }
 },
     "buildpacks": [
