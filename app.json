@@ -5,18 +5,18 @@
   "logo": "https://telegra.ph/file/24b9b8507613125d34bd1.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "env": { 
-        "pemilink_number": {
-            "description": "මොකක්ද දන්නෙ නැ උබේ නම්බර් එක දාපන්",
+                "OWNER_NUMBER": {
+            "description": "නම්බර් එක දාන්න",
             "required": true,
             "value":"94729352830"
         },
-        "primium_number": {
-            "description": "උබේ නම්බර් එක දාපන්",
-            "required": true,
-            "value":"94729352830"
+        "MENU_CMD": {
+            "description": "මෙනු කමාන්ඩ් එක දාන්න"
+            "required": false,
+            "value": ""
         },
-        "pengguna": {
-            "description": "උබේ නම දපන්",
+        "OWNER_NAME": {
+            "description": "නම දාන්න",
             "required": true,
             "value":"ШHłТΞ HΛϾКΞЯS"
         },
@@ -35,15 +35,10 @@
             "required": true,
             "value":""
         },
-        "session_Name": {
+        "SESSION_NAME": {
             "description": "සෙසන් නේම් එක මේක් වෙනස් කරන්න ඔනි නෑ",
             "required": true,
             "value":"session"
-        },
-        "SP_IMOJI": {
-            "description": "කැමති ඉමෝජියක්",
-            "required": true,
-            "value":"🔥"
         }
                 
    },
